@@ -1,10 +1,9 @@
 module.exports = {
-  host: "teste-postgres",
+  host: "",
   username: "postgres",
   password: "user123",
-  database: "LocalDB",
+  database: "postgres",
   dialect: "postgres",
-  operatorsAliases: false,
   logging: false,
   define: {
     timestamp: true, //show time and date of creation
