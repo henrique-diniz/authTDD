@@ -10,7 +10,7 @@ const db = {};
 const sequelize = new Sequelize(
   config.database,
   config.username,
-  config.password_hash,
+  config.password,
   config
 );
 
