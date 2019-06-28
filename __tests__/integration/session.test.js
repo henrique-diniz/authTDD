@@ -8,20 +8,21 @@ describe("Authentication", () => {
   beforeEach(async () => {
     await truncate();
   });
+
   it("should authenticate with valid credentials", async () => {
     const user = await User.create({
       name: "Henrique",
       email: "henriquee.diniz@hotmail.com",
-      password_hash: "123123"
+      password: "123123"
     });
 
     const response = await request(app)
       .post("/sessions")
       .send({
         email: user.email,
-        password: "123123"
+        password: "123456"
       });
 
-    expect(response.status).toBe(200);
+    expect(response.status).toBe(401);
   });
 });
