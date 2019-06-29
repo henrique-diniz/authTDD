@@ -1,5 +1,6 @@
 const jwt = require("jsonwebtoken");
 const { promisify } = require("util");
+
 module.exports = async (req, res, next) => {
   const authHeader = req.headers.authorization;
 
