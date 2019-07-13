@@ -14,7 +14,7 @@ yarn init
 yarn start
 ```
 
-When you finally a instalation from dependecencies, you will need to link your app with a database. 
+When you finally install all dependencies, you will need to link your app with a database.
 
 ## Database 
 
