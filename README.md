@@ -11,7 +11,6 @@ To install all dependencies, you need to do this command:
 ```
 yarn init
 
-yarn start
 ```
 
 When you finally install all dependencies, you will need to link your app with a database.
