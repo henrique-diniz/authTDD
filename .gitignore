@@ -1,4 +1,4 @@
 node_modules
 __tests__/coverage/*
-yarn.lock
-yarn-error.log
+../yarn.lock
+../yarn-error.log
